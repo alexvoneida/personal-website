@@ -1,0 +1,18 @@
+.title {
+    color: hsl(0,0%,75%);
+    text-align: center;
+    font-size: 4rem;
+    animation: fadeInUp 0.8s ease forwards;
+    position: relative;
+    top: 30vh;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
